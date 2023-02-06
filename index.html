@@ -1,0 +1,193 @@
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness</title>
+  </head>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Hind:wght@700&family=Lobster&display=swap" rel="stylesheet">"
+  <style>
+    
+    body {
+      
+      margin: 0px;
+      padding: 0px;
+      color: white;
+      font-family:'Cinzel', serif ,'Hind', sans-serif , 'Lobster', cursive;
+      background: url("bg-1.jpg") no-repeat;
+      background-size: 100%;
+    }
+     
+      .left{
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        right: 20px;
+      }
+.left img{
+  width: 500px;
+  height: 300px;
+  margin-top: -2.9%;
+  margin-left: -2%;
+  filter: invert(100%);
+}
+.left div{
+  line-height: 20px;
+  font-size: 50px;
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-style: oblique;
+ font-weight: bolder;
+}
+      .right {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        border: 4px solid whitesmoke;
+        /* background-color: gainsboro; */
+        width: 15%; 
+        margin: 2.5%;
+      }
+      .centre {
+        display: block;
+        position: sticky; 
+        border: 9px solid black;
+          background-color: gainsboro;
+        width: 33%;
+        margin: auto;
+        margin-top: 2.5%;
+        border-radius: 5%;
+        top: 20px;
+      }
+.nav li{
+    display: inline-block;
+   
+    padding-left: 9%;
+    padding-right: 32px;
+}
+.nav li a{
+    color: black;
+    
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-display: bold;
+}
+.nav li a :hover{
+  text-decoration: underline;
+  color: black;
+}
+ 
+.submit{
+  background-color: black;
+  color: whitesmoke;
+  font-size: 40px;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-right: 10px ;  
+  margin-bottom: 10px ;
+  margin-left: 10px ;
+  padding: 9px 9px 9px 9px;
+  width: 900px;
+  height: 80px;
+}
+.btn{
+  
+  margin-right: 10px ;
+  margin-bottom: 10px ;
+  margin-left: 10px ;
+  background-color: black;
+  color: whitesmoke;
+  padding: 9px 9px 9px 9px;
+  padding-left: 12%;
+  height: 80px;
+  width: 400px;
+  border-radius: 10px;
+  /* border: 4px solid green; */
+  font-size: 40px;
+  cursor: pointer;
+  
+  
+}
+.btn :hover{
+  background-color: aliceblue;
+}
+.container{
+  border: 4px solid white;
+  display: inline-block;
+  margin: 306px 50px;
+  margin-top: 10%;
+  margin-right: 45%;
+  margin-left: 6%;
+  /* margin-left: 950px; */
+padding: 78px;
+border-radius: 32px;
+  width: 35%;
+  font-size: 55px;
+  
+}
+.formgroup input{
+  text-align: center;
+  display: block;
+  width: 911px;
+  padding: 11px;
+  border: 4px solid black;
+  margin: 11px auto;
+  border-radius: 11px;
+  font-size: 39px;
+}
+.container button{
+  display: block;
+  margin: 21px auto ;
+border-radius: 11px;
+  width: 22%;
+}
+.container h1{
+  text-align: center;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="logo-1.jpg" alt="LOGO">
+      <div> FITTER</div>
+      </div>
+      <div class="centre">
+        <!-- for navigation bar -->
+        <ul class="nav">
+            <li><a href="a">HOME</a></li>
+            <li><a href="a">SERVICES</a></li>
+            <li><a href="a">ABOUT US</a></li>
+            <li><a href="a">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <!-- for buttons -->
+        
+        <button class="btn">JOIN </button>
+        <button class="btn">FOLLOW </button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the Best Gym </h1>
+      <form2 action="action.php">
+        <div class="formgroup">
+          <input type="text" name=""  placeholder="Enter Your Name">
+        </div>
+        <div class="formgroup">
+          <input type="email" name=""  placeholder="Enter Your Email">
+        </div>
+        <div class="formgroup">
+          <input type="password" name=""  placeholder="Enter Your Password">
+        </div> 
+        <button class="Submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
+                                   
